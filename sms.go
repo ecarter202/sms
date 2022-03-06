@@ -16,7 +16,7 @@ type Client struct {
 	EmailAddress   string
 	Password       string
 	config         *Config
-	smtpClient     *smtp.Client
+	// smtpClient     *smtp.Client
 }
 
 type Config struct {
